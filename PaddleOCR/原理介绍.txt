@@ -1,0 +1,3 @@
+crnn:res34+lstm+ctc
+step1: 首先使用比赛字典库和https://github.com/Sanster/text_renderer 生成600w数据，在生成数据上的模作为预训练模型，训练好的在work/PaddleOCR/model 下
+step2: 直接运行notebook
